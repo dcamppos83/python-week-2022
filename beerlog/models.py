@@ -1,6 +1,6 @@
 #from dataclasses import dataclass ## já acompanha o python, não precisa instalar
 from typing import Optional
-from sqlmodel import SQLModel
+from sqlmodel import SQLModel, Field
 from sqlmodel import select
 
 #@dataclass
